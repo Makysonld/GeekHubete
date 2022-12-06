@@ -1,8 +1,11 @@
 <?php
 
     $paginas = ['home'=>'Bem vindo a página ','sobre'=>'Site em desenvolvimento sobre a cultura Geek.', 'contato'=>''];
-
-    $paginas['contato'] = '<form><input type="text" placeholder= "seu nome..." /></form>';
+    
+    $paginas['contato'] = '<form> <input type="text" placeholder= "seu nome..." /> <br />
+    <input type="text" placeholder= "Seu email  " />       
+    
+    </form>';
 ?>  
 
 <!DOCTYPE html>
